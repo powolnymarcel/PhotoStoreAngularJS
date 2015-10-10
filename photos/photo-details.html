@@ -1,0 +1,38 @@
+<div>
+    <a href="#/photos" class="btn btn-block btn-info">Go back.</a>
+    <br/>
+    <div class="col-md-4">
+        <img src="img/{{mainImage}}" alt="" class="img-full"/>
+        <div class="row">
+            <div ng-repeat="image in photos.images | limitTo:4">
+            <div class="col-md-3">
+                <img class="img-full" ng-src="img/{{image.name}}" ng-click="setImage(image)" alt=""/>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="col-md-8">
+    <h3>{{photos.name}}</h3>
+        <p>
+{{photos.description}}
+        </p>
+        {{photos.type}}
+
+        <h4>{{photos.price}}
+        </h4>
+        <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_xclick">
+            <input type="hidden" name="business" value="YNHTG7NL6B3NQ">
+            <input type="hidden" name="lc" value="BE">
+            <input type="hidden" name="item_name" value="{{photos.name}}">
+            <input type="hidden" name="amount" value="{{photos.price}}">
+            <input type="hidden" name="currency_code" value="EUR">
+            <input type="hidden" name="button_subtype" value="services">
+            <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHosted">
+            <input type="image" src="https://www.sandbox.paypal.com/en_US/BE/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+
+
+    </div>
+</div>

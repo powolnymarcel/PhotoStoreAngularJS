@@ -1,0 +1,13 @@
+<div class="row">
+    <div ng-repeat="photo in photos">
+
+        <div class="col-md-4 photos">
+        <h3>{{photo.name}}</h3>
+        <img ng-src="img/{{photo.images[0].name}}" alt=""/>
+        <h4>{{(photo.price  | number:2) + " €"}}</h4>
+        <a href="#/photos/{{photo.id}}" class="btn btn-primary btn-block">Details</a>
+    </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,144 @@
+[
+  {
+    "id":1,
+    "name":"Photo 1",
+    "description":"This is the picture number 1",
+    "type":"photography",
+    "price":12.99,
+    "images":[
+      {
+        "name":"1.jpg"
+      },
+      {
+        "name":"1a.jpg"
+      },
+      {
+        "name":"1b.jpg"
+      },
+      {
+        "name":"1c.jpg"
+      },
+      {
+        "name":"1d.jpg"
+      }
+    ],
+    "soldOut":true
+  },
+  {
+    "id":2,
+    "name":"Photo 2",
+    "description":"This is the picture number 2",
+    "type":"photography",
+    "price":12.99,
+    "images":[
+      {
+        "name":"2.jpg"
+      }
+    ],
+    "available":true
+  },
+  {
+    "id":3,
+    "name":"Photo 3",
+    "description":"This is the picture number 3",
+    "type":"photography",
+    "price":33.99,
+    "images":[
+      {
+        "name":"3.jpg"
+      }
+    ],
+    "available":true
+  },
+  {
+    "id":4,
+    "name":"Photo 4",
+    "description":"This is the picture number 4",
+    "type":"photography",
+    "price":44.99,
+    "images":[
+      {
+        "name":"4.jpg"
+      }
+    ],
+    "available":true
+  },
+  {
+    "id":5,
+    "name":"Photo 5",
+    "description":"This is the picture number 5",
+    "type":"photography",
+    "price":55.99,
+    "images":[
+      {
+        "name":"5.jpg"
+      }
+    ],
+    "available":true
+  },
+  {
+    "id":6,
+    "name":"Photo 6",
+    "description":"This is the picture number 6",
+    "type":"photography",
+    "price":66.99,
+    "images":[
+      {
+        "name":"6.jpg"
+      }
+    ],
+    "available":true
+  },
+  {
+    "id":7,
+    "name":"Photo 7",
+    "description":"This is the picture number 7",
+    "type":"photography",
+    "price":77.99,
+    "images":[
+      {
+        "name":"7.jpg"
+      }
+    ],
+    "available":true
+  },
+  {
+    "id":8,
+    "name":"Photo 8",
+    "description":"This is the picture number 8",
+    "type":"photography",
+    "price":88.99,
+    "images":[
+      {
+        "name":"8.jpg"
+      }
+    ],
+    "available":true
+  },
+  {
+    "id":9,
+    "name":"Photo 9",
+    "description":"This is the picture number 9",
+    "type":"photography",
+    "price":99.99,
+    "images":[
+      {
+        "name":"9.jpg"
+      }
+    ],
+    "available":true
+  },
+  {
+    "id":10,
+    "name":"Photo 10",
+    "description":"This is the picture number 10",
+    "type":"photography",
+    "price":10.99,
+    "images":[
+      {
+        "name":"10.jpg"
+      }
+    ],
+    "available":true
+  }
+]
